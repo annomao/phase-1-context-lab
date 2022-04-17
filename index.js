@@ -75,6 +75,7 @@ let findEmployeeByFirstName = function (srcArray,firstname){
     return record.firstName === firstname
   })
 }
+
 let calculatePayroll = function(employeeArray){
   let employeeWages = employeeArray.map(record =>{
     return allWagesFor.call(record)
